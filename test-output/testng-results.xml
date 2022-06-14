@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19123" started-at="2022-06-10T06:14:15Z" finished-at="2022-06-10T06:14:34Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@23e028a9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19123" started-at="2022-06-10T06:14:15Z" finished-at="2022-06-10T06:14:34Z">
+      <class name="parallel.ParallelRun">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:parallel.ParallelRun@23e028a9]" name="setUpClass" is-config="true" duration-ms="868" started-at="2022-06-10T06:14:15Z" finished-at="2022-06-10T06:14:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.ParallelRun@23e028a9]" name="runScenario" duration-ms="16531" started-at="2022-06-10T06:14:16Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-10T06:14:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding candidate name"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Candidate Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="tearDownClass()[pri:0, instance:parallel.ParallelRun@23e028a9]" name="tearDownClass" is-config="true" duration-ms="1696" started-at="2022-06-10T06:14:33Z" finished-at="2022-06-10T06:14:34Z">
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoSuchMethodError: org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V
+at org.vandeseer.easytable.drawing.cell.ParagraphCellDrawer.drawContent(ParagraphCellDrawer.java:57)
+at org.vandeseer.easytable.TableDrawer.lambda$new$0(TableDrawer.java:61)
+at org.vandeseer.easytable.TableDrawer.drawRow(TableDrawer.java:170)
+at org.vandeseer.easytable.TableDrawer.drawWithFunction(TableDrawer.java:153)
+at org.vandeseer.easytable.TableDrawer.lambda$drawPage$1(TableDrawer.java:83)
+at java.lang.Iterable.forEach(Unknown Source)
+at org.vandeseer.easytable.TableDrawer.drawPage(TableDrawer.java:82)
+at org.vandeseer.easytable.TableDrawer.draw(TableDrawer.java:78)
+at tech.grasshopper.pdf.chapter.detailed.DetailedRowComponent.display(DetailedRowComponent.java:90)
+at tech.grasshopper.pdf.chapter.detailed.DetailedPage.lambda$0(DetailedPage.java:42)
+at java.util.ArrayList.forEach(Unknown Source)
+at tech.grasshopper.pdf.chapter.detailed.DetailedPage.createPage(DetailedPage.java:39)
+at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.sendToPage(DetailedChapter.java:115)
+at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createAndSendPageData(DetailedChapter.java:83)
+at tech.grasshopper.pdf.chapter.detailed.DetailedChapter.createChapter(DetailedChapter.java:28)
+at tech.grasshopper.pdf.PDFCucumberReport.lambda$0(PDFCucumberReport.java:100)
+at java.util.ArrayList.forEach(Unknown Source)
+at tech.grasshopper.pdf.PDFCucumberReport.createReport(PDFCucumberReport.java:100)
+at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.flush(ExtentPDFCucumberReporter.java:66)
+at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter.access$1(ExtentPDFCucumberReporter.java:57)
+at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:42)
+at tech.grasshopper.pdf.extent.ExtentPDFCucumberReporter$1.onNext(ExtentPDFCucumberReporter.java:1)
+at io.reactivex.rxjava3.subjects.PublishSubject$PublishDisposable.onNext(PublishSubject.java:310)
+at io.reactivex.rxjava3.subjects.PublishSubject.onNext(PublishSubject.java:226)
+at com.aventstack.extentreports.ReactiveSubject.onFlush(ReactiveSubject.java:83)
+at com.aventstack.extentreports.AbstractProcessor.onFlush(AbstractProcessor.java:85)
+at com.aventstack.extentreports.ExtentReports.flush(ExtentReports.java:279)
+at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.finishReport(ExtentCucumberAdapter.java:296)
+at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter.access$6(ExtentCucumberAdapter.java:295)
+at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:132)
+at com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter$8.receive(ExtentCucumberAdapter.java:1)
+at io.cucumber.core.eventbus.AbstractEventPublisher.send(AbstractEventPublisher.java:51)
+at io.cucumber.core.eventbus.AbstractEventBus.send(AbstractEventBus.java:12)
+at io.cucumber.core.runtime.CucumberExecutionContext.emitTestRunFinished(CucumberExecutionContext.java:93)
+at io.cucumber.core.runtime.CucumberExecutionContext.finishTestRun(CucumberExecutionContext.java:74)
+at io.cucumber.testng.TestNGCucumberRunner.finish(TestNGCucumberRunner.java:126)
+at io.cucumber.testng.AbstractTestNGCucumberTests.tearDownClass(AbstractTestNGCucumberTests.java:53)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:214)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+Caused by: java.lang.NoSuchMethodError: org.apache.pdfbox.pdmodel.interactive.annotation.PDAnnotation.constructAppearances()V
+at java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+at java.lang.invoke.MemberName$Factory.resolve(Unknown Source)
+at java.lang.invoke.MemberName$Factory.resolveOrFail(Unknown Source)
+at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(Unknown Source)
+at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(Unknown Source)
+at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Unknown Source)
+... 63 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.ParallelRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,333 @@
+
+Scenario: Adding candidate name                                                [90m# src/test/resources/parallel/Addcandidate.feature:19[0m
+      [31mjava.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+[0m
+  [36mGiven [0m[36muser has already logged in to application[0m                              [90m# StepDefinition.Homepagestepdefinition.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)[0m
+  [36mGiven [0m[36muser navigates to candidate page[0m                                       [90m# null[0m
+  [36mWhen [0m[36muser fills the form from given sheetname "Addcandidate" and rownumber 0[0m [90m# null[0m
+  [36mAnd [0m[36muser clicks on send button[0m                                               [90m# null[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:69)
+[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:58)
+[0m
+
+Scenario: Adding Candidate in Recuritment Tab     [90m# src/test/resources/parallel/Addingemployee.feature:8[0m
+      [31mjava.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+[0m
+  [36mGiven [0m[36muser has already logged in to application[0m [90m# StepDefinition.Homepagestepdefinition.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)[0m
+  [36mGiven [0m[36muser click Recuritment Tab[0m                [90m# null[0m
+  [36mWhen [0m[36muser click Candidate tab[0m                   [90m# null[0m
+  [36mAnd [0m[36muser click Add tab[0m                          [90m# null[0m
+  [36mThen [0m[36muser enter first name "Suresh"[0m             [90m# null[0m
+  [36mThen [0m[36muser enter lastname "Kumar"[0m                [90m# null[0m
+  [36mThen [0m[36muser enter emailid "suresh123@gmail.com"[0m   [90m# null[0m
+  [36mAnd [0m[36muser click save button[0m                      [90m# null[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:69)
+[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:58)
+[0m
+
+Scenario: Assigning leave for employee            [90m# src/test/resources/parallel/Assignleave.feature:7[0m
+      [31mjava.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+[0m
+  [36mGiven [0m[36muser has already logged in to application[0m [90m# StepDefinition.Homepagestepdefinition.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)[0m
+  [36mGiven [0m[36muser navigates to Leave page[0m              [90m# null[0m
+  [36mWhen [0m[36muser click the Assign leave tab[0m            [90m# null[0m
+  [36mAnd [0m[36muser add employee name in employee name tab[0m [90m# null[0m
+  [36mThen [0m[36muser select the leave type[0m                 [90m# null[0m
+  [36mWhen [0m[36muser select the from date[0m                  [90m# null[0m
+  [36mAnd [0m[36muser select the to date[0m                     [90m# null[0m
+  [36mAnd [0m[36muser enter the comment[0m                      [90m# null[0m
+  [36mThen [0m[36muser click on the Assign button[0m            [90m# null[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:69)
+[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:58)
+[0m
+
+@accounts
+Scenario: Home section count                      [90m# src/test/resources/parallel/Homepage.feature:9[0m
+      [31mjava.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+[0m
+  [36mGiven [0m[36muser has already logged in to application[0m [90m# StepDefinition.Homepagestepdefinition.user_has_already_logged_in_to_application(io.cucumber.datatable.DataTable)[0m
+  [36mGiven [0m[36muser is on Home page[0m                      [90m# StepDefinition.Homepagestepdefinition.user_is_on_home_page()[0m
+  [36mThen [0m[36muser gets Home section[0m                     [90m# StepDefinition.Homepagestepdefinition.user_gets_home_section(io.cucumber.datatable.DataTable)[0m
+  [36mAnd [0m[36maccounts section count should be [0m[36m[1m11[0m         [90m# StepDefinition.Homepagestepdefinition.accounts_section_count_should_be(java.lang.Integer)[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:69)
+[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:58)
+[0m
+
+Scenario: Login page title              [90m# src/test/resources/parallel/Loginpage.feature:3[0m
+      [31mjava.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+Caused by: java.lang.ClassNotFoundException: org.openqa.selenium.remote.SessionNotFoundException
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.qa.factory.DriverFactory.init_driver(DriverFactory.java:23)
+	at AppHooks.ApplicationHooks.launchBrowser(ApplicationHooks.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:59)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:98)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:71)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:678)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+[0m
+  [36mGiven [0m[36muser is on login page[0m           [90m# StepDefinition.Loginpagestepdefinition.user_is_on_login_page()[0m
+  [36mWhen [0m[36muser gets the title of the page[0m  [90m# StepDefinition.Loginpagestepdefinition.user_gets_the_title_of_the_page()[0m
+  [36mThen [0m[36mpage title should be [0m[36m[1m"OrangeHRM"[0m [90m# StepDefinition.Loginpagestepdefinition.page_title_should_be(java.lang.String)[0m
+  [36mGiven [0m[36muser is on login page[0m           [90m# StepDefinition.Loginpagestepdefinition.user_is_on_login_page()[0m
+  [36mWhen [0m[36muser enter username [0m[36m[1m"Admin"[0m      [90m# StepDefinition.Loginpagestepdefinition.user_enter_username(java.lang.String)[0m
+  [36mAnd [0m[36muser enter password [0m[36m[1m"admin123"[0m    [90m# StepDefinition.Loginpagestepdefinition.user_enter_password(java.lang.String)[0m
+  [36mAnd [0m[36muser click on login button[0m        [90m# StepDefinition.Loginpagestepdefinition.user_click_on_login_button()[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.tearDown(ApplicationHooks.java:69)
+[0m
+      [31mjava.lang.NullPointerException
+	at AppHooks.ApplicationHooks.quitBrowser(ApplicationHooks.java:58)
+[0m
